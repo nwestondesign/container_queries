@@ -52,8 +52,6 @@ max-width: 150px;
 
 }
 
-
-
 @container (min-width 375px) {
     .example p {
         background-color: blue;
