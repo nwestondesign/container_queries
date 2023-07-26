@@ -1,0 +1,67 @@
+/*-- CSS reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*--Styling--*/
+
+body{
+    background-color: #2d2d2d;
+    color: aliceblue;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.container{
+    margin-inline: auto;
+    width: 100%;
+
+    border: 5px solid #575757;
+    background-color: orangered;
+}
+
+.example{
+container-type: inline-size;
+
+padding-block: 20vh;
+display: grid;
+gap: 3rem;
+}
+
+.container{
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.container[data-type=small]{
+max-width: 150px;
+
+}
+
+.container[data-type=medium]{
+    max-width: 400px;
+
+}
+
+.container[data-type=large]{
+    max-width: 650px;
+
+}
+
+
+
+@container (min-width 375px) {
+    .example p {
+        background-color: blue;
+    }
+}
+
+@container (min-width 625px) {
+    .example p {
+        background-color: purple;
+    }
+}
