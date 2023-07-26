@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Noah Weston">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>Container Queries</title>
+        <link href= "style1.css" type="text/css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <article>
+
+            <div class="example">
+                
+                <div class="container" data-type="small">
+
+                    <p>Example Text</p>
+
+                </div>
+
+                    <div class="container" data-type="medium">
+
+                        <p>Example Text</p>
+
+                    </div>
+
+                        <div class="container" data-type="large">
+
+                            <p>Example Text</p>
+
+                        </div>
+
+                    </div>
+ 
+        </article>
+    </body>
